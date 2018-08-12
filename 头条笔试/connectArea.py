@@ -1,3 +1,10 @@
+"""
+相当于是一个求二值矩阵联通域的题。要求得出连通域个数和最大的连通域。
+使用的方法是：
+首先遍历数组，遇到一个“1”就将其标记为当前的flag值（flag从2开始）。
+然后将1周围的8邻域遍历，寻找有没有值为“1”的，如果有，那么将其标记为flag，并调用search。
+"""
+
 def isRoad(row, col, M, N):
     if row < M and row >=0 and col>= 0 and col < N:
         return True
