@@ -28,8 +28,14 @@ a,b<le9
 # a = [3, 2, 1]
 # b = [3, 3, 3]
 
-a = [1, 2, 5, 4, 3]
-b = [3, 6, 3, 1, 4]
+# a = [1, 2, 5, 4, 3]
+# b = [3, 6, 3, 1, 4]
+
+a = [8, 10, 2, 5, 7]
+b = [3, 11, 7, 6, 9]
+
+def countSenctence(n):          #计算长度为n的序列能组成多少个子序列
+    return n *(n+1) //2
 
 def countList(mini):
     miniA = a[mini[0]: mini[1]]
@@ -40,21 +46,20 @@ def countList(mini):
     if n == 0:
         return 0
     if max(miniA) < min(miniB):
-        return n*(n+1)//2
+        return countSenctence(n)
 
-    maxIndex = a.index(max(miniA))
+    maxIndex = miniA.index(max(miniA))
     left = maxIndex - 1
     right = maxIndex + 1
     while right < n and miniA[maxIndex] < min(miniB[maxIndex:right+1]):
         right += 1
     while left >= 0 and miniA[maxIndex] < min(miniB[left:maxIndex+1]):
         left -= 1
-
-    return (right - left - 1)*(right-left)//2 + countList([mini[0], left+1]) + countList([right, mini[1]])
+    containMax = countSenctence(right-left-1) - countSenctence(right-maxIndex-1) - countSenctence(maxIndex - left - 1)
+    return containMax + countList([mini[0], left+1 + mini[0]]) + countList([right+mini[0], mini[1]])
 
 def main():
     splits = []
-
     c = list(map(lambda x:x[0] - x[1], zip(a, b)))
     i = 0
     while i < len(c):
@@ -73,4 +78,4 @@ def main():
     return num
 
 print(main())
-
+#print("jjjj")
