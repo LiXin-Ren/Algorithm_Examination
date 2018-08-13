@@ -1,0 +1,67 @@
+"""
+两个长度为n的序列a，b。问有多少个区间[l,r]满足max(a[l,r])<min(b[l,r])
+即a区间的最大值小于b区间的最小值
+n<le5
+a,b<le9
+输入：
+第一行一个整数n
+第二行n个数，第i个为ai
+第三行n个数，第i个为bi
+输出：
+一行一个整数，表示答案
+
+示例：
+3
+3 2 1
+3 3 3
+输出：
+3
+"""
+# a = [3, 2, 1]
+# b = [3, 3, 3]
+
+# a = [1, 2, 5, 4, 3]
+# b = [3, 6, 3, 1, 4]
+
+def countList(mini):
+    miniA = a[mini[0]: mini[1]]
+    miniB = b[mini[0]: mini[1]]
+    n = len(miniA)
+    if n == 1:
+        return 1
+    if n == 0:
+        return 0
+    if max(miniA) < min(miniB):
+        return n*(n+1)//2
+
+    maxIndex = a.index(max(miniA))
+    left = maxIndex - 1
+    right = maxIndex + 1
+    while right < n and miniA[maxIndex] < min(miniB[maxIndex:right+1]):
+        right += 1
+    while left >= 0 and miniA[maxIndex] < min(miniB[left:maxIndex+1]):
+        left -= 1
+
+    return (right - left - 1)*(right-left)//2 + countList([mini[0], left+1]) + countList([right, mini[1]])
+
+def main():
+    splits = []
+    c = list(map(lambda x:x[0] - x[1], zip(a, b)))
+    i = 0
+    while i < len(c):
+        if c[i] < 0:
+            start = i
+            i += 1
+            while i < len(c) and c[i] < 0:
+                i += 1
+            splits.append([start, i])
+        else:
+            i += 1
+
+    num = 0
+    for mini in splits:
+        num += countList(mini)
+    return num
+
+print(main())
+
