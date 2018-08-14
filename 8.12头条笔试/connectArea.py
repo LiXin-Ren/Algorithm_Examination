@@ -5,6 +5,7 @@
 然后将1周围的8邻域遍历，寻找有没有值为“1”的，如果有，那么将其标记为flag，并调用search。
 """
 """
+初始方法：
 def isRoad(row, col, M, N):
     if row < M and row >=0 and col>= 0 and col < N:
         return True
@@ -84,7 +85,7 @@ print("球队个数： ", len(connects))
 print("数量最多的球队： ", max(connects))
 
 """
-
+#改进方法：
 def solve(row, col, array):
     if array[row][col] == 0:
         return 0
