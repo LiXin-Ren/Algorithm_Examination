@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bf070d-28f6-479b-81ac-24ad585effd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/8.11网易笔试/sleep.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.11网易笔试/sleep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/头条笔试/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/头条笔试/CompareMaxMin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/头条笔试/MaxLiveNumbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/头条笔试/MergeArray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/头条笔试/connectArea.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/头条笔试/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Algorithm_Examination$MergeArray.coverage" NAME="MergeArray Coverage Results" MODIFIED="1534223601188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/头条笔试" />
-    <SUITE FILE_PATH="coverage/Algorithm_Examination$sleep.coverage" NAME="sleep Coverage Results" MODIFIED="1534225133895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.11网易笔试" />
+    <SUITE FILE_PATH="coverage/Algorithm_Examination$sleep.coverage" NAME="sleep Coverage Results" MODIFIED="1534225676677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.11网易笔试" />
     <SUITE FILE_PATH="coverage/Algorithm_Examination$MaxLiveNumbers.coverage" NAME="MaxLiveNumbers Coverage Results" MODIFIED="1534224453005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.12头条笔试" />
     <SUITE FILE_PATH="coverage/Algorithm_Examination$connectArea.coverage" NAME="connectArea Coverage Results" MODIFIED="1534065967684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/头条笔试" />
   </component>
@@ -59,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8.11网易笔试/sleep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="-86">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <marker date="1534225133981" expanded="true" signature="174:176" ph="..." />
                 <marker date="1534225133981" expanded="true" signature="195:200" ph="..." />
@@ -133,11 +128,6 @@
               <item name="Algorithm_Examination" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm_Examination" type="462c0819:PsiDirectoryNode" />
               <item name="8.12头条笔试" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Examination" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Examination" type="462c0819:PsiDirectoryNode" />
-              <item name="头条笔试" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,6 +304,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/头条笔试/connectArea.py" />
     <entry file="file://$PROJECT_DIR$/头条笔试/MergeArray.py" />
@@ -326,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8.11网易笔试/sleep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="-86">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <marker date="1534225133981" expanded="true" signature="174:176" ph="..." />
             <marker date="1534225133981" expanded="true" signature="195:200" ph="..." />
