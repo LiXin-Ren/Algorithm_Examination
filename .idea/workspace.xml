@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bf070d-28f6-479b-81ac-24ad585effd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8.11网易笔试/SearchApple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.11网易笔试/sleep.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.11网易笔试/sleep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,22 +29,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="33" />
+          <entry key="gitignore" value="13" />
           <entry key="py" value="4170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="4203" />
         </counts>
       </usages-collector>
@@ -67,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8.11网易笔试/SearchApple.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -76,6 +78,15 @@
                 <marker date="1534231417437" expanded="true" signature="208:631" ph="..." />
                 <marker date="1534231417437" expanded="true" signature="642:950" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -148,6 +159,7 @@
         <option value="$PROJECT_DIR$/8.12头条笔试/MaxLiveNumbers.py" />
         <option value="$PROJECT_DIR$/8.12头条笔试/MergeArray.py" />
         <option value="$PROJECT_DIR$/8.11网易笔试/SearchApple.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -360,12 +372,12 @@
     <frame x="-8" y="-8" width="1299" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19209039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19209039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34318554" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34318554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,6 +484,13 @@
             <marker date="1534231417437" expanded="true" signature="208:631" ph="..." />
             <marker date="1534231417437" expanded="true" signature="642:950" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
