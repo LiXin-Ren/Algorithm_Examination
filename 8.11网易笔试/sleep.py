@@ -14,6 +14,8 @@ input：
 1 1 0 1 0 0
 output:
 16
+
+用了滑动窗口的方式
 """
 
 def mainFunction():
@@ -24,14 +26,18 @@ def mainFunction():
     values = list(map(int, input().split()))
     awake = list(map(int, input().split()))
 
-    now = 0
-    for i in range(n):
-        now += values[i] * awake[i]
+
+    # for i in range(n):
+    #     now += values[i] * awake[i]
+    #计算清醒总时间
+    awakeTime = sum(list(map(lambda x: x[0]*x[1], zip(awake, values))))
+    #获取一个列表，这个列表将睡觉时的兴趣值记录下来，清醒时为0
     sleep = list(map(lambda x: (not x[0])*x[1], zip(awake, values)))
     max = 0
+    #滑动窗口的方式记录最大值
     for i in range(n-k+1):
         if sum(sleep[i: i+k]) > max:
             max = sum(sleep[i: i+k])
-    return now + max
+    return awakeTime + max
 
 print(mainFunction())

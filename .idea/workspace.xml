@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bf070d-28f6-479b-81ac-24ad585effd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/头条笔试/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.11网易笔试/SearchApple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.11网易笔试/sleep.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.11网易笔试/sleep.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Algorithm_Examination$MergeArray.coverage" NAME="MergeArray Coverage Results" MODIFIED="1534223601188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/头条笔试" />
-    <SUITE FILE_PATH="coverage/Algorithm_Examination$sleep.coverage" NAME="sleep Coverage Results" MODIFIED="1534225676677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.11网易笔试" />
+    <SUITE FILE_PATH="coverage/Algorithm_Examination$SearchApple.coverage" NAME="SearchApple Coverage Results" MODIFIED="1534231240926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.11网易笔试" />
+    <SUITE FILE_PATH="coverage/Algorithm_Examination$sleep.coverage" NAME="sleep Coverage Results" MODIFIED="1534226435333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.11网易笔试" />
     <SUITE FILE_PATH="coverage/Algorithm_Examination$MaxLiveNumbers.coverage" NAME="MaxLiveNumbers Coverage Results" MODIFIED="1534224453005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.12头条笔试" />
     <SUITE FILE_PATH="coverage/Algorithm_Examination$connectArea.coverage" NAME="connectArea Coverage Results" MODIFIED="1534065967684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/头条笔试" />
   </component>
@@ -28,38 +31,78 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="33" />
-          <entry key="py" value="3034" />
+          <entry key="py" value="4170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3067" />
+          <entry key="Python" value="4203" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8.11网易笔试/sleep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-200">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <marker date="1534225133981" expanded="true" signature="174:176" ph="..." />
-                <marker date="1534225133981" expanded="true" signature="195:200" ph="..." />
+                <marker date="1534226400682" expanded="true" signature="185:187" ph="..." />
+                <marker date="1534226400682" expanded="true" signature="206:211" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8.11网易笔试/SearchApple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+              <folding>
+                <marker date="1534231417437" expanded="true" signature="208:631" ph="..." />
+                <marker date="1534231417437" expanded="true" signature="642:950" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/urllib/parse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-112">
+              <caret line="773" selection-start-line="773" selection-end-line="773" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.12头条笔试/CompareMaxMin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.12头条笔试/connectArea.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -67,8 +110,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8.12头条笔试/MaxLiveNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="-286">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.12头条笔试/MergeArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -91,6 +143,11 @@
         <option value="$PROJECT_DIR$/头条笔试/connectArea.py" />
         <option value="$PROJECT_DIR$/头条笔试/MergeArray.py" />
         <option value="$PROJECT_DIR$/8.11网易笔试/sleep.py" />
+        <option value="$PROJECT_DIR$/8.12头条笔试/CompareMaxMin.py" />
+        <option value="$PROJECT_DIR$/8.12头条笔试/connectArea.py" />
+        <option value="$PROJECT_DIR$/8.12头条笔试/MaxLiveNumbers.py" />
+        <option value="$PROJECT_DIR$/8.12头条笔试/MergeArray.py" />
+        <option value="$PROJECT_DIR$/8.11网易笔试/SearchApple.py" />
       </list>
     </option>
   </component>
@@ -105,6 +162,9 @@
     <option name="y" value="69" />
     <option name="width" value="1073" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sleep">
+  <component name="RunManager" selected="Python.SearchApple">
     <configuration name="MaxLiveNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm_Examination" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +252,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/头条笔试/MergeArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchApple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm_Examination" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8.11网易笔试" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.11网易笔试/SearchApple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,9 +331,11 @@
       <item itemvalue="Python.MergeArray" />
       <item itemvalue="Python.sleep" />
       <item itemvalue="Python.MaxLiveNumbers" />
+      <item itemvalue="Python.SearchApple" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SearchApple" />
         <item itemvalue="Python.sleep" />
         <item itemvalue="Python.MaxLiveNumbers" />
         <item itemvalue="Python.MergeArray" />
@@ -274,13 +358,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1299" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19209039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32019705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34318554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,22 +394,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
-          <line>24</line>
+          <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
-          <line>26</line>
+          <line>28</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
-          <line>27</line>
+          <line>29</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/8.11网易笔试/sleep.py</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
@@ -333,20 +418,59 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/头条笔试/connectArea.py" />
     <entry file="file://$PROJECT_DIR$/头条笔试/MergeArray.py" />
-    <entry file="file://$PROJECT_DIR$/8.12头条笔试/MaxLiveNumbers.py">
+    <entry file="file://$PROJECT_DIR$/8.12头条笔试/MergeArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="225">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.11网易笔试/sleep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-200">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="11" selection-end-line="13" selection-end-column="11" />
           <folding>
-            <marker date="1534225133981" expanded="true" signature="174:176" ph="..." />
-            <marker date="1534225133981" expanded="true" signature="195:200" ph="..." />
+            <marker date="1534226400682" expanded="true" signature="185:187" ph="..." />
+            <marker date="1534226400682" expanded="true" signature="206:211" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="773" selection-start-line="773" selection-end-line="773" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.12头条笔试/CompareMaxMin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.12头条笔试/connectArea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.12头条笔试/MaxLiveNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.11网易笔试/SearchApple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <marker date="1534231417437" expanded="true" signature="208:631" ph="..." />
+            <marker date="1534231417437" expanded="true" signature="642:950" ph="..." />
           </folding>
         </state>
       </provider>
