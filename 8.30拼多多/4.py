@@ -20,44 +20,45 @@ CHRE
 第一行包含2个整数N，L，
 """
 n, l = map(int, input().split())
-se = []
-s = ['']*l
+words = []
+wordsTree = ['']*l
 output = []
 
 def dfs(now, output):
     if now == l:
-        output = "".join(output)
-        if se.count(output):    #查找se中是否存在output
+        if ''.join(output) in words:
             return False
         else:
             return True
-
-    last = "#"
+    last = '0'
     for i in range(n):
-        if last == s[now][i]:       # 避免重复搜索
+        if last == wordsTree[now][i]:
             continue
-        last = s[now][i]
-        output.append(last)
-        ok = dfs(now + 1, output)
-        if ok:
-            return True
+        else:
+            last = wordsTree[now][i]
+            output.append(last)
+
+            flag = dfs(now+1, output)
+            if flag == True:
+                return True
     return False
 
 
 for i in range(n):
-    curr = input()
-    se.append(curr)
+    currWord = input()
+    words.append(currWord)
     for j in range(l):
-        s[j] += curr[j]
+        wordsTree[j] += currWord[j]         #生成一棵按次序排列的列表
 
+#对wordsTree排序
 for i in range(l):
-    s[i] = "".join(sorted(s[i]))
-ok = dfs(0, output)
-if ok:
-    print('yes')
+    wordsTree[i] = "".join(sorted(wordsTree[i]))
+
+flag = dfs(0, output)
+if flag:
     print("".join(output))
 else:
-    print("-")
+    print('-')
 
 """
 3 4
